@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  bigdatainitialsetuppython:
+    image: bigdatainitialsetuppython
+    build:
+      context: .
+      dockerfile: ./Dockerfile
